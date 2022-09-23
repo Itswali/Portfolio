@@ -10,50 +10,6 @@
   height: 718px;
 }
 
-.status_bar {
-  width: 375px;
-  height: 44px;
-  display: flex;
-}
-
-.status_bar p {
-  width: 54px;
-  height: 16px;
-  margin-top: 16px;
-  margin-left: 21px;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  font-weight: 500;
-  text-align: center;
-  font-size: 14px;
-  line-height: 16.41px;
-  color: #000;
-  letter-spacing: -0.28px;
-}
-
-.network {
-  width: 17px;
-  height: 10.67px;
-  margin-left: 218.67px;
-  color: #000;
-  margin-top: 17.67px;
-}
-
-.wifi {
-  width: 15.27px;
-  height: 10.97px;
-  margin-top: 17.33px;
-  margin-left: 5.03px;
-  color: #000;
-}
-
-.battery {
-  width: 24.33px;
-  height: 11.33px;
-  margin-left: 5.03px;
-  margin-top: 17.33px;
-  border-radius: 1.33333px;
-}
-
 header {
   width: 375px;
   height: 44px;
@@ -88,13 +44,14 @@ header {
 }
 
 .myself {
+  font-family: 'poppins';
   width: 327px;
-  height: 144px;
+  height: 150px;
   margin-top: 84px;
   margin-left: 24px;
   font-weight: 700;
-  font-size: 30px;
-  color: #172b4d;
+  font-size: 40px;
+  color: #172b40;
   line-height: 52px;
 }
 
@@ -103,7 +60,7 @@ header {
   height: 146px;
   margin-left: 24px;
   margin-top: 24px;
-  font-family: 'poppins', sans-serif;
+  font-family: 'Poppins';
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
