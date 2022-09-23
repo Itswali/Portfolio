@@ -4,7 +4,7 @@
   background-color: #f7f7f9;
 }
 
-.bg_image{
+.bg_image {
   background-image: url(./Images/header/header.png);
   position: absolute;
   width: 462px;
@@ -51,7 +51,7 @@ header {
 }
 
 .myself {
-  font-family: 'poppins';
+  font-family: 'poppins', sans-serif;
   width: 327px;
   height: 150px;
   margin-top: 84px;
@@ -67,7 +67,7 @@ header {
   height: 146px;
   margin-left: 24px;
   margin-top: 24px;
-  font-family: 'Poppins';
+  font-family: 'poppins', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
