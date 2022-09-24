@@ -215,7 +215,7 @@ ul {
   padding-right: 170px;
 }
 
-.tag_s p {
+.tag_s li {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -245,7 +245,7 @@ button {
   align-items: center;
   padding: 12px;
   gap: 10px;
-  width: 124px;
+  width: 148px;
   height: 48px;
   border: 1px solid #6070ff;
   text-align: center;
@@ -255,7 +255,7 @@ button {
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
-  color: #396df2;
+  color: rgba(57, 109, 242, 1);
   margin-top: 30px;
 }
 
@@ -576,7 +576,6 @@ button:hover {
   margin-top: 30.72px;
   background-color: #f9f9f9;
   border-radius: 8px;
-  margin-right: 50px;
 }
 
 .css {
