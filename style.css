@@ -64,6 +64,7 @@ header {
 
 .my_description {
   width: 327px;
+  display: flex;
   height: 146px;
   margin-left: 24px;
   margin-top: 24px;
@@ -125,6 +126,7 @@ ul {
 
 .work_section {
   display: flex;
+  display: grid;
   flex-direction: column;
   align-items: center;
   padding: 16px;
@@ -436,6 +438,7 @@ button {
   font-family: 'poppins', sans-serif;
   font-weight: 500;
   line-height: 24px;
+  margin-top: 15px;
   color: #7f8cff;
 }
 
@@ -564,7 +567,6 @@ button:hover {
 .framework {
   width: 327px;
   height: 72px;
-  margin-top: 45.72px;
   display: flex;
 }
 
@@ -596,7 +598,7 @@ button:hover {
 .skills {
   width: 327px;
   height: 72px;
-  margin-top: 48px;
+  margin-top: 8px;
   display: flex;
 }
 
@@ -646,14 +648,11 @@ button:hover {
   gap: 12px;
   width: 327px;
   height: 248px;
-  order: 1;
 }
 
 .jss {
   width: 303px;
   height: 67px;
-  background: #f7f7f9;
-  border-radius: 8px;
 }
 
 .jss img {
@@ -662,7 +661,6 @@ button:hover {
   height: 48px;
   padding-left: 35px;
   left: 12px;
-  border: 1px solid #fff;
 }
 
 .jss h3 {
@@ -681,8 +679,6 @@ button:hover {
 .htmll {
   width: 303px;
   height: 67px;
-  background: #f7f7f9;
-  border-radius: 8px;
   padding-top: 70px;
   padding-left: 5px;
 }
@@ -693,7 +689,6 @@ button:hover {
   height: 48px;
   padding-left: 35px;
   left: 12px;
-  border: 1px solid #fff;
 }
 
 .htmll h3 {
@@ -712,8 +707,6 @@ button:hover {
 .csss {
   width: 303px;
   height: 67px;
-  background: #f7f7f9;
-  border-radius: 8px;
   padding-top: 140px;
 }
 
@@ -723,7 +716,6 @@ button:hover {
   padding-left: 35px;
   height: 48px;
   left: 12px;
-  border: 1px solid #fff;
 }
 
 .csss h3 {
@@ -747,4 +739,8 @@ button:hover {
   gap: 12px;
   width: 350px;
   height: 1350px;
+}
+
+a {
+  text-decoration: none;
 }
