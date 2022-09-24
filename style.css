@@ -130,7 +130,7 @@ ul {
   padding: 16px;
   gap: 12px;
   width: 327px;
-  height: 670px;
+  height: 678px;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
 }
@@ -395,6 +395,7 @@ button {
   width: 375px;
   height: 1263px;
   margin-top: 114px;
+  margin-left: 50px;
 }
 
 #box1 {
@@ -414,7 +415,6 @@ button {
   font-size: 40px;
   color: #172b4d;
   line-height: 52px;
-  margin-top: 0.1px;
 }
 
 #box1 > .intro {
@@ -561,36 +561,6 @@ button:hover {
   margin-left: 12px;
 }
 
-.js {
-  display: flex;
-  width: 303px;
-  height: 66.72px;
-  border-radius: 8px;
-  background-color: #f9f9f9;
-}
-
-.html {
-  display: flex;
-  width: 303px;
-  height: 66.72px;
-  margin-top: 30.72px;
-  background-color: #f9f9f9;
-  border-radius: 8px;
-}
-
-.css {
-  display: flex;
-  width: 303px;
-  height: 66.72px;
-  margin-top: 30.72px;
-  background-color: #f9f9f9;
-  border-radius: 8px;
-}
-
-.css > h3 {
-  margin-left: 16px;
-}
-
 .framework {
   width: 327px;
   height: 72px;
@@ -666,4 +636,102 @@ button:hover {
   gap: 12px;
   width: 327px;
   height: 248px;
+}
+
+.checkers_1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  gap: 12px;
+  width: 327px;
+  height: 248px;
+  order: 1;
+}
+
+.jss {
+  width: 303px;
+  height: 67px;
+  background: #f7f7f9;
+  border-radius: 8px;
+}
+
+.jss img {
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  padding-left: 10px;
+  left: 12px;
+  border: 1px solid #fff;
+}
+
+.jss h3 {
+  position: absolute;
+  height: 24px;
+  left: 76px;
+  right: 12px;
+  font-family: 'poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.htmll {
+  width: 303px;
+  height: 67px;
+  background: #f7f7f9;
+  border-radius: 8px;
+  padding-top: 70px;
+  padding-left: 5px;
+}
+
+.htmll img {
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  padding-left: 10px;
+  left: 12px;
+  border: 1px solid #fff;
+}
+
+.htmll h3 {
+  position: absolute;
+  height: 24px;
+  left: 76px;
+  right: 12px;
+  font-family: 'poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.csss {
+  width: 303px;
+  height: 67px;
+  background: #f7f7f9;
+  border-radius: 8px;
+  padding-top: 140px;
+}
+
+.csss img {
+  position: absolute;
+  width: 48px;
+  padding-left: 10px;
+  height: 48px;
+  left: 12px;
+  border: 1px solid #fff;
+}
+
+.csss h3 {
+  position: absolute;
+  height: 24px;
+  left: 76px;
+  right: 12px;
+  font-family: 'poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
 }
