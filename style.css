@@ -4,6 +4,11 @@
   background-color: #f7f7f9;
 }
 
+.project_container {
+  display: grid;
+  gap: 50px;
+}
+
 .bg_image {
   background-image: url(./Images/header/header.png);
   position: absolute;
@@ -132,7 +137,7 @@ ul {
   padding: 16px;
   gap: 12px;
   width: 327px;
-  height: 678px;
+  height: 698px;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
 }
