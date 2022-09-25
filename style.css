@@ -664,14 +664,14 @@ button:hover {
   position: absolute;
   width: 48px;
   height: 48px;
-  padding-left: 35px;
+  padding-left: 65px;
   left: 12px;
 }
 
 .jss h3 {
   position: absolute;
   height: 24px;
-  padding-left: 35px;
+  padding-left: 65px;
   left: 76px;
   right: 12px;
   font-family: 'poppins', sans-serif;
@@ -692,7 +692,7 @@ button:hover {
   position: absolute;
   width: 48px;
   height: 48px;
-  padding-left: 35px;
+  padding-left: 65px;
   left: 12px;
 }
 
@@ -704,7 +704,7 @@ button:hover {
   font-family: 'poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
-  padding-left: 35px;
+  padding-left: 65px;
   font-size: 15px;
   line-height: 20px;
 }
@@ -718,7 +718,7 @@ button:hover {
 .csss img {
   position: absolute;
   width: 48px;
-  padding-left: 35px;
+  padding-left: 65px;
   height: 48px;
   left: 12px;
 }
@@ -727,7 +727,7 @@ button:hover {
   position: absolute;
   height: 24px;
   left: 76px;
-  padding-left: 35px;
+  padding-left: 65px;
   right: 12px;
   font-family: 'poppins', sans-serif;
   font-style: normal;
@@ -738,6 +738,7 @@ button:hover {
 
 .detail_section {
   display: flex;
+  display: grid;
   flex-direction: column;
   align-items: center;
   padding: 16px;
