@@ -812,6 +812,7 @@ a {
   font-size: 17px;
   line-height: 20px;
   margin-right: 10px;
+  left: 30px;
 }
 
 .for_email input {
@@ -819,6 +820,7 @@ a {
   width: 260px;
   height: 48px;
   border-radius: 8px;
+  left: 30px;
   top: 460px;
   font-family: 'poppins', sans-serif;
   font-style: normal;
@@ -831,6 +833,7 @@ a {
   position: absolute;
   width: 260px;
   height: 150px;
+  left: 30px;
   top: 530px;
   border-radius: 8px;
   font-family: 'poppins', sans-serif;
