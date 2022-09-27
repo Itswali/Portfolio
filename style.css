@@ -771,18 +771,18 @@ a {
   font-weight: 700;
   position: absolute;
   height: 56px;
-  font-family: 'Poppins';
+  font-family: 'poppins', sans-serif;
   font-size: 40px;
   line-height: 52px;
   display: flex;
   align-items: center;
   text-align: center;
-  color: #FFFFFF;
+  color: #fff;
 }
 
 .contact-header p {
   text-align: center;
-  font-family: 'Poppins';
+  font-family: 'poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -792,42 +792,7 @@ a {
   height: 102px;
   left: 22px;
   top: 165px;
-  color: #EBEBFF;
-}
-
-.contact-header {
-  padding-top: 6rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.contact-header span {
-  font-weight: 700;
-  position: absolute;
-  height: 56px;
-  font-family: 'Poppins';
-  font-size: 40px;
-  line-height: 52px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  color: #FFFFFF;
-}
-
-.contact-header p {
-  text-align: center;
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 28px;
-  position: absolute;
-  width: 327px;
-  height: 102px;
-  left: 22px;
-  top: 165px;
-  color: #EBEBFF;
+  color: #ebebff;
 }
 
 .the_form {
@@ -836,32 +801,30 @@ a {
   width: 327px;
 }
 
-  .for_name input {
+.for_name input {
   position: absolute;
   width: 260px;
   height: 48px;
   border-radius: 8px;
-  font-family: 'Poppins';
+  font-family: 'poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 17px;
   line-height: 20px;
   margin-right: 10px;
-  
 }
 
-.for_email input{
+.for_email input {
   position: absolute;
   width: 260px;
   height: 48px;
   border-radius: 8px;
   top: 460px;
-  font-family: 'Poppins';
+  font-family: 'poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 17px;
   line-height: 20px;
-
 }
 
 .for_textarea textarea {
@@ -870,12 +833,12 @@ a {
   height: 150px;
   top: 530px;
   border-radius: 8px;
-  font-family: 'Poppins';
+  font-family: 'poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
   line-height: 24px;
-  color: #B3BAC5;
+  color: #b3bac5;
 }
 
 .for_button {
@@ -886,7 +849,6 @@ a {
   position: absolute;
   width: 140px;
   height: 48px;
-  left: 24px;
   border-radius: 8px;
   top: 680px;
   left: 50px;
