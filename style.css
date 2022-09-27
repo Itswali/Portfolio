@@ -788,9 +788,8 @@ a {
   font-size: 20px;
   line-height: 28px;
   position: absolute;
-  width: 327px;
+  width: 100%;
   height: 102px;
-  left: 22px;
   top: 165px;
   color: #ebebff;
 }
