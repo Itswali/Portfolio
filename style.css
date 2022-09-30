@@ -24,8 +24,12 @@
   }
 
   .project_container {
-    display: grid;
-    gap: 50px;
+    background: #e5e5e5;
+    padding-top: 20%;
+    padding-bottom: 15%;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
   }
 
   .bg_image {
@@ -153,35 +157,33 @@
     display: grid;
     flex-direction: column;
     align-items: center;
-    padding: 16px;
+    padding: 10px;
     gap: 12px;
-    width: 327px;
-    height: 698px;
-    border: 1px solid #dfe1e6;
+    background: #fff;
+    width: 85%;
+    height: 20%;
     border-radius: 16px;
   }
 
   .Primary_section {
-    width: 295px;
+    width: 80%;
     background: url(blog_drbl_4x.png);
     height: 220px;
     border-radius: 8px;
   }
 
   .Primary_section img {
-    width: 295px;
+    width: 95%;
   }
 
   .Left_Block {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 12px;
+    gap: 4px;
   }
 
   .Left_Block h4 {
-    width: 295px;
-    height: 36px;
     font-family: 'poppins', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -193,13 +195,12 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 8px;
-    width: 256px;
-    height: 32px;
+    gap: 2px;
   }
 
   .leftline_1 ul {
     list-style: disc;
+    gap: 25px;
   }
 
   .leftline_1 li {
@@ -208,14 +209,9 @@
     font-weight: 600;
     font-size: 13px;
     line-height: 16px;
-    width: 55px;
+    width: 60px;
     height: 16px;
     color: #7a869a;
-  }
-
-  .leftline_1 img {
-    width: 8px;
-    height: 8px;
   }
 
   .leftline_1 h5 {
@@ -224,9 +220,8 @@
     font-weight: 600;
     font-size: 13px;
     line-height: 16px;
-    width: 55px;
+    width: 30px;
     padding-left: 4px;
-    height: 16px;
   }
 
   .text_area p {
@@ -292,7 +287,8 @@
     font-size: 17px;
     line-height: 24px;
     color: rgba(57, 109, 242, 1);
-    margin-top: 30px;
+    margin-top: 31px;
+    margin-left: 70px;
   }
 
   .space_1 {
@@ -919,6 +915,11 @@
     text-decoration: none;
   }
 
+  .container {
+    height: auto;
+    width: auto;
+  }
+
   .item_navigation {
     display: flex;
     flex-direction: row;
@@ -927,11 +928,11 @@
     position: absolute;
     width: 259px;
     height: 40px;
-    left: 1180px;
   }
 
   .item_navigation ul {
     list-style: none;
+    padding-left: 360%;
   }
 
   .the_head {
@@ -948,7 +949,9 @@
     position: absolute;
     height: 40px;
     top: 25px;
-    left: 150px;
+
+    /* left: 150px; */
+    left: 19%;
   }
 
   .logo {
@@ -979,9 +982,7 @@
     position: absolute;
     background-size: cover;
     width: 90%;
-    height: 870.46px;
-    left: 50.6px;
-    top: 119px;
+    height: 70%;
     background-repeat: no-repeat;
     border-bottom-left-radius: 100px;
   }
@@ -1048,6 +1049,7 @@
     position: absolute;
     width: 100%;
     height: 2550px;
+    height: 245%;
     top: 1200px;
     background: #e5e5e5;
   }
@@ -1055,8 +1057,8 @@
   .work_section1 {
     display: flex;
     flex-direction: row;
-    height: 500px;
-    width: 1500px;
+    height: 20%;
+    width: 80%;
     gap: 90px;
     position: absolute;
     border-radius: 30px;
@@ -1066,10 +1068,11 @@
 
   .Primary_section1 {
     padding: 5px 5px 5px 5px;
+    width: 36%;
   }
 
   .for_texts1 {
-    width: 800px;
+    width: 45%;
   }
 
   .Left_Block1 h4 {
@@ -1175,8 +1178,8 @@
     display: flex;
     top: 650px;
     flex-direction: row;
-    height: 500px;
-    width: 1500px;
+    height: 20%;
+    width: 80%;
     gap: 90px;
     position: absolute;
     border-radius: 30px;
@@ -1186,10 +1189,11 @@
 
   .Primary_section2 {
     padding: 5px 5px 5px 5px;
+    width: 36%;
   }
 
   .for_texts2 {
-    width: 800px;
+    width: 45%;
   }
 
   .Left_Block2 h4 {
@@ -1295,8 +1299,8 @@
     display: flex;
     top: 1300px;
     flex-direction: row;
-    height: 500px;
-    width: 1500px;
+    height: 20%;
+    width: 80%;
     gap: 90px;
     position: absolute;
     border-radius: 30px;
@@ -1306,10 +1310,11 @@
 
   .Primary_section3 {
     padding: 5px 5px 5px 5px;
+    width: 36%;
   }
 
   .for_texts3 {
-    width: 800px;
+    width: 45%;
   }
 
   .Left_Block3 h4 {
@@ -1415,8 +1420,8 @@
     display: flex;
     top: 1950px;
     flex-direction: row;
-    height: 500px;
-    width: 1500px;
+    height: 20%;
+    width: 80%;
     gap: 90px;
     position: absolute;
     border-radius: 30px;
@@ -1426,10 +1431,11 @@
 
   .Primary_section4 {
     padding: 5px 5px 5px 5px;
+    width: 36%;
   }
 
   .for_texts4 {
-    width: 800px;
+    width: 45%;
   }
 
   .Left_Block4 h4 {
@@ -1533,17 +1539,17 @@
 
   .detail_section {
     background: #fff;
-    width: 100%;
-    height: 800px;
-    margin-top: 3700px;
+    width: 80%;
+    height: 190%;
+    margin-top: 3900px;
   }
 
   #about {
     display: flex;
     flex-direction: row;
     gap: 50px;
-    height: 700px;
-    margin-top: 100px;
+    height: 800px;
+    margin-top: 120px;
   }
 
   #box1 {
@@ -1559,7 +1565,9 @@
     display: flex;
     flex-direction: column;
     margin-top: 50px;
-    width: 900px;
+
+    /* width: 600px; */
+    width: 35%;
     height: 600px;
   }
 
@@ -1722,8 +1730,9 @@
 
   .contact-header {
     width: 900px;
+    width: 70%;
     height: 200px;
-    margin-left: 300px;
+    margin-left: 19%;
   }
 
   .contact-header span {
@@ -1731,13 +1740,14 @@
     font-weight: 700;
     font-size: 40px;
     line-height: 52px;
-    margin-left: 350px;
+    margin-left: 30%;
     font-family: 'poppins', sans-serif;
     color: #fff;
   }
 
   .contact-header p {
     margin-left: 100px;
+    margin-left: 16%;
     margin-right: 50px;
     color: #fff;
     margin-top: 20px;
@@ -1750,8 +1760,9 @@
 
   .for_ul {
     display: flex;
+    padding-top: 5%;
     flex-direction: column;
-    padding-left: 600px;
+    padding-left: 36%;
     gap: 20px;
   }
 
@@ -1789,7 +1800,7 @@
   }
 
   .the_form button {
-    margin-left: 690px;
+    margin-left: 41.5%;
     width: 150px;
     height: 35px;
     margin-top: 30px;
