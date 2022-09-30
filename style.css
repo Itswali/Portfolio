@@ -287,8 +287,8 @@
     font-size: 17px;
     line-height: 24px;
     color: rgba(57, 109, 242, 1);
-    margin-top: 31px;
-    margin-left: 70px;
+    margin-top: 21px;
+    margin-left: 40px;
   }
 
   .space_1 {
@@ -1012,7 +1012,7 @@
 
   .my_description p {
     font-style: normal;
-    font-weight: 600;
+    font-weight: 400;
     font-size: 20px;
     line-height: 28px;
     height: 98px;
@@ -1057,8 +1057,8 @@
   .work_section1 {
     display: flex;
     flex-direction: row;
-    height: 20%;
-    width: 80%;
+    height: 500px;
+    width: 1500px;
     gap: 90px;
     position: absolute;
     border-radius: 30px;
@@ -1068,11 +1068,10 @@
 
   .Primary_section1 {
     padding: 5px 5px 5px 5px;
-    width: 36%;
   }
 
   .for_texts1 {
-    width: 45%;
+    width: 800px;
   }
 
   .Left_Block1 h4 {
@@ -1178,8 +1177,8 @@
     display: flex;
     top: 650px;
     flex-direction: row;
-    height: 20%;
-    width: 80%;
+    height: 500px;
+    width: 1500px;
     gap: 90px;
     position: absolute;
     border-radius: 30px;
@@ -1189,11 +1188,10 @@
 
   .Primary_section2 {
     padding: 5px 5px 5px 5px;
-    width: 36%;
   }
 
   .for_texts2 {
-    width: 45%;
+    width: 800px;
   }
 
   .Left_Block2 h4 {
@@ -1299,8 +1297,8 @@
     display: flex;
     top: 1300px;
     flex-direction: row;
-    height: 20%;
-    width: 80%;
+    height: 500px;
+    width: 1500px;
     gap: 90px;
     position: absolute;
     border-radius: 30px;
@@ -1310,11 +1308,10 @@
 
   .Primary_section3 {
     padding: 5px 5px 5px 5px;
-    width: 36%;
   }
 
   .for_texts3 {
-    width: 45%;
+    width: 800px;
   }
 
   .Left_Block3 h4 {
@@ -1420,8 +1417,8 @@
     display: flex;
     top: 1950px;
     flex-direction: row;
-    height: 20%;
-    width: 80%;
+    height: 500px;
+    width: 1500px;
     gap: 90px;
     position: absolute;
     border-radius: 30px;
@@ -1431,11 +1428,10 @@
 
   .Primary_section4 {
     padding: 5px 5px 5px 5px;
-    width: 36%;
   }
 
   .for_texts4 {
-    width: 45%;
+    width: 800px;
   }
 
   .Left_Block4 h4 {
@@ -1675,6 +1671,22 @@
     font-family: 'poppins', sans-serif;
   }
 
+  .htmll h3 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    font-family: 'poppins', sans-serif;
+  }
+
+  .csss h3 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    font-family: 'poppins', sans-serif;
+  }
+
   .framework {
     display: flex;
     gap: 675px;
@@ -1747,20 +1759,20 @@
 
   .contact-header p {
     margin-left: 100px;
-    margin-left: 16%;
-    margin-right: 50px;
+    margin-left: 5%;
+    margin-right: 200px;
     color: #fff;
     margin-top: 20px;
     height: 100px;
     font-style: normal;
-    font-weight: 500;
-    font-size: 24px;
+    font-weight: 400;
+    font-size: 20px;
     line-height: 28px;
   }
 
   .for_ul {
     display: flex;
-    padding-top: 5%;
+    padding-top: 1%;
     flex-direction: column;
     padding-left: 36%;
     gap: 20px;
