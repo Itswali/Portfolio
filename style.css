@@ -127,7 +127,8 @@ h1 {
   padding: 114px 24px;
 }
 
-.card_1 {
+.works-2,
+.works {
   width: 100%;
   border: 1px solid #dfe1df;
   border-radius: 16px;
@@ -138,6 +139,7 @@ h1 {
   background: #fff;
 }
 
+.project-image,
 .image {
   width: 100%;
   height: auto;
@@ -145,21 +147,21 @@ h1 {
   min-height: 250px;
 }
 
-.card-info {
+.projects {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   gap: 20px;
 }
 
-.card-title {
+.project-title {
   color: #172b4d;
   font-size: 32px;
   font-weight: 700;
   line-height: 44px;
 }
 
-.card-detail {
+.project-info {
   display: flex;
   align-items: center;
   gap: 12px;
@@ -169,14 +171,14 @@ h1 {
   line-height: 16px;
 }
 
-.languaes {
+.categories {
   display: flex;
   align-items: center;
   gap: 10px;
   margin-bottom: 24px;
 }
 
-.languaes li {
+.categories li {
   background: #ebebff;
   border-radius: 8px;
   padding: 4px 12px;
@@ -187,11 +189,11 @@ h1 {
   letter-spacing: 0.5px;
 }
 
-.Cano-py {
+.client {
   color: #344563;
 }
 
-.card-text {
+.primary-text {
   color: #344563;
   font-size: 15px;
   font-weight: 400;
@@ -284,6 +286,8 @@ h1 {
 }
 
 .my_skill_one,
+.skill_unexpanded,
+.skill_language,
 .my_skill_two {
   display: flex;
   justify-content: space-between;
@@ -372,4 +376,181 @@ h1 {
 
 .for_button {
   align-self: center;
+}
+
+@media screen and (min-width: 768px) {
+  .menu_for_mbl {
+    display: none;
+  }
+
+  h1 {
+    color: #172b4d;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 52px;
+    margin-bottom: 12px;
+  }
+
+  .themenu {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    gap: 32px;
+  }
+
+  .port_sec {
+    width: 100%;
+    background:
+      url("img/Header-bg-desktop.svg"),
+      url("img/header-bg-shape-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: contain, cover;
+    background-position: center, bottom left;
+  }
+
+  .background_1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 240px 250px 85px 225px;
+  }
+
+  .me_1 {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .mid_cards {
+    grid-row-gap: 142px;
+    padding: 142px;
+  }
+
+  .works {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "imageArea projectArea";
+    gap: 46px;
+  }
+
+  .works-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "projectArea imageArea";
+    gap: 46px;
+  }
+
+  .project-image {
+    grid-area: imageArea;
+  }
+
+  .projects {
+    grid-area: projectArea;
+  }
+
+  .project-tittle {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 52px;
+  }
+
+  .project-info {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+  }
+
+  .client {
+    font-weight: 500;
+  }
+
+  .primary-text {
+    font-size: 16px;
+    margin-right: 46px;
+  }
+
+  .About_me {
+    background: url("img/about-bg-shape-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top right;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 142px;
+    gap: 37px;
+  }
+
+  .about_myself_p {
+    max-width: 447px;
+    margin-top: 12px;
+  }
+
+  .my_skills {
+    display: none;
+  }
+
+  .my_skills_desktop {
+    display: flex;
+    max-width: 684px;
+  }
+
+  .my_skills_list_desktop {
+    width: 100%;
+  }
+
+  .skill_languages {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .skill_unexpanded {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .skill_language {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .divider_line {
+    width: 100%;
+    height: 5px;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+    background: #fff url("img/contact-bg-shape-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .footer_background {
+    background: #6070ff url(img/contact-shapes-desktop.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    margin: 79.09px 74px 48.21px 40px;
+  }
+
+  .my_contact p {
+    min-width: 569px;
+  }
+
+  #name,
+  #email,
+  #Message {
+    max-width: 447px;
+    border-radius: 0;
+  }
+
+  .for_button {
+    align-self: center;
+  }
+
+
+
+
+
 }
