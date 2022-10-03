@@ -36,7 +36,6 @@ button:hover {
   animation-direction: reverse;
 }
 
-
 .tool_bar {
   width: 100%;
   background: #fff;
@@ -452,27 +451,6 @@ h1 {
     font-size: 40px;
     font-weight: 700;
     line-height: 52px;
-  }
-
-  .categories-float {
-    float:left;
-  }
-
-  .categories-float li {
-    float: left;
-    background: #ebebff;
-    border-radius: 8px;
-    padding: 4px 12px;
-    color: #0004ff;
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 16px;
-    letter-spacing: 0.5px;
-    
-  }
-
-  .categories-float >*+* {
-    margin-right: 10px;
   }
 
   .project-info {
