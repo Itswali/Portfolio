@@ -7,6 +7,11 @@
   text-decoration: none;
 }
 
+body {
+  background: #e5e5e5;
+  min-height: 100vh;
+}
+
 button {
   width: fit-content;
   height: 48;
@@ -31,10 +36,6 @@ button:hover {
   animation-direction: reverse;
 }
 
-body {
-  background: #e5e5e5;
-  min-height: 100vh;
-}
 
 .tool_bar {
   width: 100%;
