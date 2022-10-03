@@ -454,6 +454,27 @@ h1 {
     line-height: 52px;
   }
 
+  .categories-float {
+    float:left;
+  }
+
+  .categories-float li {
+    float: left;
+    background: #ebebff;
+    border-radius: 8px;
+    padding: 4px 12px;
+    color: #0004ff;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.5px;
+    
+  }
+
+  .categories-float >*+* {
+    margin-right: 10px;
+  }
+
   .project-info {
     font-size: 18px;
     font-weight: 400;
