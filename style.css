@@ -390,12 +390,21 @@ h1 {
     line-height: 52px;
     margin-bottom: 12px;
   }
+  
+  button:active {
+    color: #0004ff;
+    border-radius: 20px;
+  }
 
   .themenu {
     display: flex;
     text-align: center;
     align-items: center;
     gap: 32px;
+  }
+
+  .themenu li :hover {
+    color: #0004ff;
   }
 
   .port_sec {
