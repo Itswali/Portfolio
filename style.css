@@ -378,6 +378,11 @@ h1 {
   align-self: center;
 }
 
+button:active {
+  color: #0004ff;
+  border-radius: 20px;
+}
+
 @media screen and (min-width: 768px) {
   .menu_for_mbl {
     display: none;
@@ -548,4 +553,13 @@ h1 {
   .for_button {
     align-self: center;
   }
+  
+  .themenu li :hover {
+    color: #0004ff;
+  }
+  
+  button:active {
+  color: #0004ff;
+  border-radius: 20px;
+}
 }
