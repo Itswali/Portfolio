@@ -24,9 +24,9 @@
 
 👤 **Wali Muhammad**
 
-- GitHub: [@](https://github.com/)
-- Twitter: [@](https://twitter.com/)
-- LinkedIn: [@](https://linkedin.com/in/)
+- GitHub: [@](https://github.com/Itswali)
+- Twitter: [@](https://twitter.com/WaliMuh94818599)
+- LinkedIn: [@](https://www.linkedin.com/in/wali-muhammad-666040244/)
 
 
 ## 🤝 Contributing
