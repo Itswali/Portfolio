@@ -549,13 +549,13 @@ button:active {
   .for_button {
     align-self: center;
   }
-  
+
   .themenu li :hover {
     color: #0004ff;
   }
-  
+
   button:active {
-  color: #0004ff;
-  border-radius: 20px;
-}
+    color: #0004ff;
+    border-radius: 20px;
+  }
 }
