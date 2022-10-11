@@ -107,7 +107,7 @@ h1 {
   margin-bottom: 12px;
 }
 
-.social_icons {
+.social-icons {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -115,7 +115,7 @@ h1 {
   margin-bottom: 136px;
 }
 
-.mid_cards {
+.cards {
   width: 100%;
   display: grid;
   grid-template-columns: 1.1fr;
@@ -123,8 +123,8 @@ h1 {
   padding: 114px 24px;
 }
 
-.works-2,
-.works {
+.card-2,
+.card-1 {
   width: 100%;
   border: 1px solid #dfe1df;
   border-radius: 16px;
@@ -380,7 +380,7 @@ button:active {
 }
 
 @media screen and (min-width: 768px) {
-  .menu_for_mbl {
+  .menu-for-mbl {
     display: none;
   }
 
@@ -421,19 +421,19 @@ button:active {
     line-height: 28px;
   }
 
-  .mid_cards {
+  .cards {
     grid-row-gap: 142px;
     padding: 142px;
   }
 
-  .works {
+  .card-1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: "imageArea projectArea";
     gap: 46px;
   }
 
-  .works-2 {
+  .card-2 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: "projectArea imageArea";
@@ -549,13 +549,13 @@ button:active {
   .for_button {
     align-self: center;
   }
-  
+
   .themenu li :hover {
     color: #0004ff;
   }
-  
+
   button:active {
-  color: #0004ff;
-  border-radius: 20px;
-}
+    color: #0004ff;
+    border-radius: 20px;
+  }
 }
