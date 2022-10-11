@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PORTFOLIO</title>
+    <title>PORFTFOLIO</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,12 +15,12 @@
 <body>
     <header class="tool_bar">
         <nav class="the_nav">
-            <a href="#" class="my_logo"><img src="img/MyLogo.png" alt="Wali's-logo"></a>
-            <a href="#" class="menu_for_mbl"><img src="img/Union.png" alt="the_union"></a>
+            <a href="#" role="button" class="my-logo"><img src="img/MyLogo.png" alt="My-logo"></a>
+            <a href="#" class="menu-for-mbl"><img src="img/Union.png" alt="the-union"></a>
             <ul class="themenu">
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#"> About</a></li>
-                <li><a href=""> Contact</a></li>
+                <li><a href="#" role="button">Portfolio</a></li>
+                <li><a href="#" role="button" > About</a></li>
+                <li><a href="" role="button" > Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -32,22 +32,22 @@
                     through some of my work and experience! If you like what you see and have a project you need coded,
                     don’t hestiate to contact me. </p>
                 <p class="lets_cnt">LET'S CONNECT</p>
-                <ul class="social_icons">
-                    <li> <a href="#"><img class="social" src="img/twitter.svg" alt="twitter" width="20" height="20"></a>
+                <ul class="social-icons">
+                    <li>  <a href="#" role="button" > <img class="social" src="img/twitter.svg" alt="twitter" width="20" height="20"> </a>
                     </li>
-                    <li> <a href="#"><img class="social" src="img/Linkedinicon.svg" alt="linkedin" width="20"
-                                height="20"> </a> </li>
-                    <li> <a href="#"><img class="social" src="img/medium.svg" alt="medium" width="20" height="20"></a>
+                    <li> <a href="#"   role="button"><img class="social" src="img/Linkedinicon.svg" alt="linkedin" width="20"
+                       height="20"> </a> </li>
+                    <li> <a href="#"   role="button"><img class="social" src="img/medium.svg" alt="medium" width="20" height="20"></a>
                     </li>
-                    <li> <a href="#"><img class="social" src="img/github.svg" alt="github" width="20" height="20"></a>
+                    <li> <a href="#"   role="button"><img class="social" src="img/github.svg" alt="github" width="20" height="20"></a>
                     </li>
-                    <li> <a href="#"><img class="social" src="img/angel.svg" alt="angellist" width="20" height="20">
+                    <li> <a href="#"   role="button"><img class="social" src="img/angel.svg" alt="angellist" width="20" height="20">
                         </a> </li>
                 </ul>
             </div>
         </section>
-        <div class="mid_cards">
-            <div class="works">
+        <div class="cards">
+            <div class="card-1">
                 <div class="project-image"><img class="image" src="img/desktop1.png" alt="my first project"></div>
                 <div class="projects">
                     <h2 class="project-tittle">Tonic</h2>
@@ -68,7 +68,7 @@
                     </ul><button class="button" id="1">See Project</button>
                 </div>
             </div>
-            <div class="works-2">
+            <div class="card-2">
                 <div class="project-image"><img class="image" src="img/desktop2.png" alt="my first project"></div>
                 <div class="projects">
                     <h2 class="project-tittle">Multi-Post Stories</h2>
@@ -90,7 +90,7 @@
                     </ul><button class="button" id="2">See Project</button>
                 </div>
             </div>
-            <div class="works">
+            <div class="card-1">
                 <div class="project-image"><img class="image" src="img/desktop3.png" alt="my first project"></div>
                 <div class="projects">
                     <h2 class="project-tittle">Facebook 360</h2>
@@ -112,7 +112,7 @@
                     </ul><button class="button" id="3">See Project</button>
                 </div>
             </div>
-            <div class="works-2">
+            <div class="card-2">
                 <div class="project-image"><img class="image" src="img/desktop4.png" alt="my first project"></div>
                 <div class="projects">
                     <h2 class="project-tittle">Uber Navigation</h2>
@@ -186,7 +186,7 @@
             <div class="my_skills_desktop">
                 <ul class="my_skills_list_desktop">
                     <li class="skill_language">
-                        <p>Languages</p>
+                        <p role="heading">Languages</p>
                         <a href="#"><img class="social" src="img/Dcursor.png" alt="Cursor-Down"></a>
                     </li> <br>
                     <li class="language_expanded">
@@ -195,14 +195,14 @@
                         <img src="img/FD3.png" alt="css">
                     </li> <br>
                     <li class="skill_unexpanded">
-                        <p>Framework</p>
+                        <p role="heading">Framework</p>
                         <a href="#"> <img src="img/Lcursor.png" alt="left-cursor"> </a>
                     </li>
                     <li>
                         <img class="divider_line" src="img/theline.png" alt="line">
                     </li> <br>
                     <li class="skill_unexpanded">
-                        <p>Skills</p> <a href="#"><img src="img/Lcursor.png" alt="left-cursor"></a>
+                        <p role="heading" >Skills</p> <a href="#"><img src="img/Lcursor.png" alt="left-cursor"></a>
                     </li>
                     <li><img class="divider_line" src="img/theline.png" alt="line"></li>
                 </ul>
@@ -213,9 +213,9 @@
         <div class="footer_background">
             
             <form class="the_form" action="https://formspree.io/f/xvoyankb" method="post">
-                <input type="text" id="name" name="name" placeholder="user name" maxlength="30" required>
-                <input type="email" id="email" name="email" placeholder="example@email.com" required>
-                <textarea type="text" id="Message" name="message" placeholder="write your message here" maxlength="500" required></textarea>
+                <input type="text" aria-label="name" aria-required="true" id="name" name="name" placeholder="user name" maxlength="30" required>
+                <input type="email" id="email"  aria-label="email" aria-required="true" name="email" placeholder="example@email.com" required>
+                <textarea type="text" id="Message"  aria-label="message" name="message" placeholder="write your message here" maxlength="500" required></textarea>
                 <button class="for_button" type="submit">Get it Touch</button>
             </form>
         </div>
