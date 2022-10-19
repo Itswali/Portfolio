@@ -293,7 +293,6 @@ modalsSection.addEventListener('click', (e) => {
   }
 });
 
-
 const userName = document.querySelector('#name');
 const userMsg = document.querySelector('#Message');
 const userEmail = document.querySelector('#email');
