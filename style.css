@@ -8,32 +8,8 @@
 }
 
 body {
-  background: #e5e5e5;
   min-height: 100vh;
-}
-
-button {
-  width: fit-content;
-  height: 48;
-  border-radius: 8px;
-  background: #fff;
-  border: 1px solid #6070ff;
-  display: flex;
-  align-items: center;
-  padding: 12px;
-  font-size: 17px;
-  font-weight: 500;
-  line-height: 24px;
-  color: #396df2;
-}
-
-button:hover {
-  background-color: #6070ff;
-  color: #fff;
-  border-radius: 8px;
-  animation-name: rotate;
-  animation-duration: 0.7s;
-  animation-direction: reverse;
+  background: #e5e5e5;
 }
 
 .tool_bar {
@@ -115,18 +91,34 @@ h1 {
   margin-bottom: 136px;
 }
 
-.cards {
+button {
+  width: fit-content;
+  height: 48;
+  border-radius: 8px;
+  background: #fff;
+  border: 1px solid #6070ff;
+  display: flex;
+  align-items: center;
+  padding: 12px;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #396df2;
+}
+
+.middle {
   width: 100%;
   display: grid;
-  grid-template-columns: 1.1fr;
+  grid-template-columns: 1fr;
   grid-row-gap: 88px;
   padding: 114px 24px;
 }
 
-.card-2,
-.card-1 {
+.works,
+.works-2,
+.overlay-card {
   width: 100%;
-  border: 1px solid #dfe1df;
+  border: 1px solid #dfe1e6;
   border-radius: 16px;
   padding: 18px 16px;
   display: flex;
@@ -140,7 +132,7 @@ h1 {
   width: 100%;
   height: auto;
   min-height: 200px;
-  min-height: 250px;
+  min-width: 250px;
 }
 
 .projects {
@@ -150,11 +142,22 @@ h1 {
   gap: 20px;
 }
 
-.project-title {
+.project-tittle {
   color: #172b4d;
   font-size: 32px;
   font-weight: 700;
   line-height: 44px;
+}
+
+.client {
+  color: #344563;
+}
+
+.primary-text {
+  color: #344563;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
 }
 
 .project-info {
@@ -171,7 +174,7 @@ h1 {
   display: flex;
   align-items: center;
   gap: 10px;
-  margin-bottom: 24px;
+  margin-bottom: 25px;
 }
 
 .categories li {
@@ -182,18 +185,35 @@ h1 {
   font-weight: 500;
   font-size: 12px;
   line-height: 16px;
-  letter-spacing: 0.5px;
+  letter-spacing: 0.03em;
 }
 
-.client {
-  color: #344563;
+.ruby {
+  display: none;
 }
 
-.primary-text {
-  color: #344563;
-  font-size: 15px;
-  font-weight: 400;
+.button {
+  width: fit-content;
+  height: 48;
+  border-radius: 8px;
+  background: #fff;
+  border: 1px solid #6070ff;
+  display: flex;
+  align-items: center;
+  padding: 12px;
+  font-size: 17px;
+  font-weight: 500;
   line-height: 24px;
+  color: #396df2;
+}
+
+button:hover {
+  background-color: #6070ff;
+  color: #fff;
+  border-radius: 8px;
+  animation-name: rotate;
+  animation-duration: 0.7s;
+  animation-direction: reverse;
 }
 
 .About_me {
@@ -379,42 +399,6 @@ button:active {
   border-radius: 20px;
 }
 
-.open {
-  background-color: #6070ff;
-  mix-blend-mode: multiply;
-  backdrop-filter: blur(5px);
-  position: fixed;
-  left: 0;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  display: none;
-}
-
-.cancel {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  position: fixed;
-  right: 2%;
-  padding: 8px;
-}
-
-.main-menu {
-  display: flex;
-  flex-direction: column;
-  padding-top: 106px;
-  padding-left: 28px;
-  gap: 40px;
-}
-
-.menu-item {
-  color: #fff;
-  font-size: 32px;
-  font-weight: 600;
-  line-height: 44px;
-}
-
 @media screen and (min-width: 768px) {
   .bars {
     display: none;
@@ -457,19 +441,19 @@ button:active {
     line-height: 28px;
   }
 
-  .cards {
+  .middle {
     grid-row-gap: 142px;
     padding: 142px;
   }
 
-  .card-1 {
+  .works {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: "imageArea projectArea";
     gap: 46px;
   }
 
-  .card-2 {
+  .works-2 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: "projectArea imageArea";
@@ -503,6 +487,14 @@ button:active {
   .primary-text {
     font-size: 16px;
     margin-right: 46px;
+  }
+
+  .ruby {
+    display: flex;
+  }
+
+  .skill-list {
+    display: none;
   }
 
   .About_me {
@@ -593,5 +585,154 @@ button:active {
   button:active {
     color: #0004ff;
     border-radius: 20px;
+  }
+}
+
+.overlay {
+  background-color: #6070ff;
+  mix-blend-mode: multiply;
+  backdrop-filter: blur(5px);
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  display: none;
+}
+
+.main-menu {
+  display: flex;
+  flex-direction: column;
+  padding-top: 106px;
+  padding-left: 28px;
+  gap: 40px;
+}
+
+.menu-item {
+  color: #fff;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 44px;
+}
+
+.cancel {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  position: fixed;
+  right: 2%;
+  padding: 8px;
+}
+
+/* Overlay cards-projects section styles */
+
+.modal-container {
+  z-index: 1;
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  scale: 1;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(5px);
+  overflow: auto;
+  padding: 50px 16px;
+  width: 100%;
+}
+
+.hide {
+  scale: 0;
+  display: none;
+}
+
+.modal-nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 16px;
+}
+
+.modal-card-info {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.modal12 {
+  margin-bottom: 12px;
+}
+
+.modal-tecnologies {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.img-devider {
+  margin-bottom: 25px;
+  width: 100%;
+}
+
+.btn-modal {
+  width: 100%;
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.btn-link {
+  min-width: max-content;
+}
+
+.icon-btn {
+  margin-left: 14px;
+}
+
+@media screen and (min-width: 768px) {
+  .modal-container {
+    padding: 77px 142px;
+  }
+
+  .overlay-card {
+    padding: 24px;
+  }
+
+  .modal28 {
+    margin-bottom: 28px;
+  }
+
+  .img-modal {
+    margin-bottom: 59px;
+    max-height: 700px;
+  }
+
+  .modal-card-info {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .modal-text {
+    width: 60%;
+  }
+
+  .modal-tecnologies {
+    width: 40%;
+  }
+
+  .categ-modal {
+    display: flex;
+    flex-direction: row;
+    max-width: 250px;
+    flex-wrap: wrap;
+  }
+
+  .btn-modal {
+    justify-content: flex-start;
+    flex-wrap: wrap;
   }
 }
