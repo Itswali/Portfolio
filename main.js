@@ -6,8 +6,6 @@ const links = document.querySelector('.menu-item');
 const cardsSection = document.querySelector('.middle');
 const modalsSection = document.querySelector('.modal-container');
 
-
-
 hamburger.addEventListener('click', () => {
   mainMenu.style.display = 'flex';
   overlay.style.display = 'block';
@@ -22,9 +20,6 @@ for (let i = 0; i < links.length; i += 1) {
     overlay.style.display = 'none';
   });
 }
-
-
-
 
 const projectsCard = [
   {
@@ -297,18 +292,3 @@ modalsSection.addEventListener('click', (e) => {
     modal.forEach((element) => element.classList.add('hide'));
   }
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
