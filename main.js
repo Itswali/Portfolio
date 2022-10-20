@@ -303,18 +303,33 @@ const form = document.querySelector('.the_form');
 form.addEventListener('submit', (e) => {
   if (emailRegex.test(userEmail.value)) {
     errorMsg.textContent = '';
+    errorMsg.textContent = 'Submitted Sucessfully';
   } else {
     e.preventDefault();
     errorMsg.textContent = 'Please use lowercase for a valid email address.';
   }
 });
 
-form.addEventListener('input', () => {
-  const contactForm = {
-    name: userName.value,
-    email: userEmail.value,
-    message: userMsg.value,
+const formLocal = document.querySelector('#form');
+
+formLocal.addEventListener('submit', (e) => {
+  e.preventDefault();
+  const obj = {
+    fullname: document.querySelector('#name').value,
+    emailAdress: document.querySelector('#email').value,
+    message: document.querySelector('#Message').value,
   };
 
-  localStorage.setItem('inputForm', JSON.stringify(contactForm));
+  localStorage.setItem('DATA', JSON.stringify(obj));
+});
+
+const getData = localStorage.getItem('DATA');
+const getDataValue = JSON.parse(getData);
+
+window.addEventListener('load', () => {
+  if (localStorage.getItem('DATA')) {
+    document.querySelector('#name').value = getDataValue.fullname;
+    document.querySelector('#email').value = getDataValue.emailAdress;
+    document.querySelector('#Message').value = getDataValue.message;
+  }
 });
