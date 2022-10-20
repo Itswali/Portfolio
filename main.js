@@ -308,3 +308,13 @@ form.addEventListener('submit', (e) => {
     errorMsg.textContent = 'Please use lowercase for a valid email address.';
   }
 });
+
+form.addEventListener('input', () =>{
+  const contactForm = {
+    name: userName.value, 
+    email: userEmail.value,
+    message: userMsg.value
+  }; 
+
+  localStorage.setItem('inputForm', JSON.stringify(contactForm));
+});
