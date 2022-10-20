@@ -317,4 +317,5 @@ form.addEventListener('input', () =>{
   }; 
 
   localStorage.setItem('inputForm', JSON.stringify(contactForm));
+
 });
