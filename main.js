@@ -313,7 +313,7 @@ form.addEventListener('input', () =>{
   const contactForm = {
     name: userName.value, 
     email: userEmail.value,
-    message: userMsg.value
+    message: userMsg.value,
   }; 
 
   localStorage.setItem('inputForm', JSON.stringify(contactForm));
