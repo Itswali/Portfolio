@@ -288,7 +288,7 @@ modalsSection.addEventListener('click', (e) => {
     modalsSection.classList.add('hide');
     e.target.parentElement.parentElement.parentElement.classList.add('hide');
   } else if (e.target.classList.contains('modal-container')) {
-    modalsSection.classList.add('hide');
+    modalsSection.classList.add('show');
     modal.forEach((element) => element.classList.add('hide'));
   }
 });
