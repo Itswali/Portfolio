@@ -62,8 +62,8 @@ const projectsCard = [
     infoProject: ['Uber', 'Lead Developer', '2018'],
     description: 'A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.',
     technologies: ['html', 'Ruby on rails', 'css', 'javaScript'],
-    linkLiveVersion: 'https://Itswali.github.io/Portfolio/',
-    linkSource: 'https://github.com/Itswali/Portfolio',
+    linkLiveVersion: 'https://htmlpreview.github.io/?https://github.com/Itswali/Itswali.github.io-portfolio/blob/main/index.html',
+    linkSource: 'https://itswali.github.io/',
   },
 ];
 
@@ -168,7 +168,7 @@ const createModal = () => {
     modalNav.appendChild(tittleModal);
 
     const cancelModal = document.createElement('a');
-    cancelModal.setAttribute('href', '#');
+    cancelModal.setAttribute('href', 'https://itswali.github.io/');
     cancelModal.classList.add('close');
     modalNav.appendChild(cancelModal);
 
