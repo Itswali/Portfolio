@@ -12,7 +12,7 @@
 - GitHub Actions
 
 ## 🛫 Launch
- ***[🌐 CLick Here to Launch 🧑‍✈️](https://itswali.github.io./)***
+ ***[🌐 CLick Here to Launch 🧑‍✈️](https://walii.me/)***
 
 ## Getting Started
 
