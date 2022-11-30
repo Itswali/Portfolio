@@ -24,12 +24,12 @@ for (let i = 0; i < links.length; i += 1) {
 const projectsCard = [
   {
     id: '1',
-    image: 'img/desktop1.png',
+    image: 'img/mine.jpg',
     tittle: 'Tonic',
     infoProject: ['CANOPY', 'Back End Dev', '2015'],
     description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     technologies: ['html', 'Ruby on rails', 'css', 'javaScript'],
-    linkLiveVersion: 'https://Itswali.github.io/Portfolio/',
+    linkLiveVersion: 'https://walii.me/',
     linkSource: 'https://github.com/Itswali/Portfolio',
   },
 
@@ -40,7 +40,7 @@ const projectsCard = [
     infoProject: ['FACEBOOK', 'Full Stack Dev', '2015'],
     description: 'Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.',
     technologies: ['html', 'Ruby on rails', 'css', 'javaScript'],
-    linkLiveVersion: 'https://Itswali.github.io/Portfolio/',
+    linkLiveVersion: 'https://walii.me/',
     linkSource: 'https://github.com/Itswali/Portfolio',
   },
 
@@ -51,7 +51,7 @@ const projectsCard = [
     infoProject: ['FACEBOOK', 'Full Stack Dev', '2015'],
     description: "Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.",
     technologies: ['html', 'Ruby on rails', 'css', 'javaScript'],
-    linkLiveVersion: 'https://Itswali.github.io/Portfolio/',
+    linkLiveVersion: 'https://walii.me/',
     linkSource: 'https://github.com/Itswali/Portfolio',
   },
 
@@ -62,7 +62,7 @@ const projectsCard = [
     infoProject: ['Uber', 'Lead Developer', '2018'],
     description: 'A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.',
     technologies: ['html', 'Ruby on rails', 'css', 'javaScript'],
-    linkLiveVersion: 'https://htmlpreview.github.io/?https://github.com/Itswali/Itswali.github.io-portfolio/blob/main/index.html',
+    linkLiveVersion: 'https://walii.me/',
     linkSource: 'https://itswali.github.io/',
   },
 ];
