@@ -58,7 +58,7 @@ const projectsCard = [
   {
     id: '4',
     image: 'img/desktop4.png',
-    tittle: 'Uber Navigation',
+    tittle: 'Capstone Project',
     infoProject: ['Uber', 'Lead Developer', '2018'],
     description: 'A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.',
     technologies: ['html', 'Ruby on rails', 'css', 'javaScript'],
