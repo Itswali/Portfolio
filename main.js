@@ -29,29 +29,29 @@ const projectsCard = [
     infoProject: ['CANOPY', 'Back End Dev', '2015'],
     description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     technologies: ['html', 'Ruby on rails', 'css', 'javaScript'],
-    linkLiveVersion: 'https://walii.me/',
+    linkLiveVersion: 'https://itswali.github.io/toDoList/dist/',
     linkSource: 'https://github.com/Itswali/Portfolio',
   },
 
   {
     id: '2',
     image: 'img/desktop2.png',
-    tittle: 'Multi-Post Stories',
+    tittle: 'Card',
     infoProject: ['FACEBOOK', 'Full Stack Dev', '2015'],
     description: 'Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.',
     technologies: ['html', 'Ruby on rails', 'css', 'javaScript'],
-    linkLiveVersion: 'https://walii.me/',
+    linkLiveVersion: 'https://itswali.github.io/Card/',
     linkSource: 'https://github.com/Itswali/Portfolio',
   },
 
   {
     id: '3',
     image: 'img/desktop3.png',
-    tittle: 'Facebook 360',
+    tittle: 'Awesome Books',
     infoProject: ['FACEBOOK', 'Full Stack Dev', '2015'],
     description: "Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.",
     technologies: ['html', 'Ruby on rails', 'css', 'javaScript'],
-    linkLiveVersion: 'https://walii.me/',
+    linkLiveVersion: 'https://itswali.github.io/Awesome-Books/',
     linkSource: 'https://github.com/Itswali/Portfolio',
   },
 
@@ -62,8 +62,8 @@ const projectsCard = [
     infoProject: ['Uber', 'Lead Developer', '2018'],
     description: 'A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.',
     technologies: ['html', 'Ruby on rails', 'css', 'javaScript'],
-    linkLiveVersion: 'https://walii.me/',
-    linkSource: 'https://itswali.github.io/',
+    linkLiveVersion: 'https://itswali.github.io/Cpastone-Project/',
+    linkSource: 'https://github.com/Itswali/Portfolio',
   },
 ];
 
@@ -168,7 +168,7 @@ const createModal = () => {
     modalNav.appendChild(tittleModal);
 
     const cancelModal = document.createElement('a');
-    cancelModal.setAttribute('href', 'https://itswali.github.io/');
+    cancelModal.setAttribute('href', 'https://walii.me/');
     cancelModal.classList.add('close');
     modalNav.appendChild(cancelModal);
 
