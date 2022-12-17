@@ -24,7 +24,7 @@ for (let i = 0; i < links.length; i += 1) {
 const projectsCard = [
   {
     id: '1',
-    image: 'img/mine.jpg',
+    image: 'img/desktop1.png',
     tittle: 'Tonic',
     infoProject: ['CANOPY', 'Back End Dev', '2015'],
     description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
