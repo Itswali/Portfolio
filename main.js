@@ -45,19 +45,19 @@ const projectsCard = [
 
   {
     id: '3',
-    image: 'img/card.png',
+    image: 'img/Card.png',
     tittle: 'Card',
     infoProject: ['Front End', '2022'],
     description: 'A Card design to enter data of ATM Card Info..',
     technologies: ['html', 'css', 'javaScript'],
-    linkLiveVersion: 'https://itswali.github.io/toDoList/dist/',
+    linkLiveVersion: 'https://itswali.github.io/Card',
     linkSource: 'https://github.com/Itswali/Card',
   },
 
   {
     id: '4',
     image: 'img/global.png',
-    tittle: 'Card',
+    tittle: 'Global-Summit',
     infoProject: ['FACEBOOK', 'Full Stack Dev', '2022'],
     description: 'This is a UN Refugee Advert page for a an annual Summit meeting held in America . The advert has featured the topics to be discussed and Speaker from allover the globe.',
     technologies: ['html', 'Ruby on rails', 'css', 'javaScript'],
