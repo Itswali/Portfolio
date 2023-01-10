@@ -24,39 +24,60 @@ for (let i = 0; i < links.length; i += 1) {
 const projectsCard = [
   {
     id: '1',
-    image: 'img/desktop1.png',
-    tittle: 'Tonic',
-    infoProject: ['CANOPY', 'Back End Dev', '2015'],
+    image: 'img/mealsDB.png',
+    tittle: 'MealsDb',  
+    infoProject: ['CANOPY', 'Back End Dev', '2022'],
     description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    technologies: ['html', 'Ruby on rails', 'css', 'javaScript'],
-    linkLiveVersion: 'https://itswali.github.io/toDoList/dist/',
-    linkSource: 'https://github.com/Itswali/Portfolio',
+    technologies: ['html', 'css', 'javaScript'],
+    linkLiveVersion: 'https://itswali.github.io/capstoneProject2/',
+    linkSource: 'https://github.com/Itswali/capstoneProject2/',
   },
-
   {
     id: '2',
-    image: 'img/desktop2.png',
-    tittle: 'Card',
-    infoProject: ['FACEBOOK', 'Full Stack Dev', '2015'],
-    description: 'Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.',
-    technologies: ['html', 'Ruby on rails', 'css', 'javaScript'],
-    linkLiveVersion: 'https://itswali.github.io/Card/',
-    linkSource: 'https://github.com/Itswali/Portfolio',
+    image: 'img/todolist.png',
+    tittle: 'To-DO-List',
+    infoProject: ['CANOPY', 'Web Page', '2022'],
+    description: 'This is a simple web app that manages the To do list. The user can add, edit , delete and clear all to do items.',
+    technologies: ['html', 'css', 'javaScript'],
+    linkLiveVersion: 'https://itswali.github.io/toDoList/dist/',
+    linkSource: 'https://github.com/Itswali/toDoList',
   },
 
   {
     id: '3',
-    image: 'img/desktop3.png',
-    tittle: 'Awesome Books',
-    infoProject: ['FACEBOOK', 'Full Stack Dev', '2015'],
-    description: "Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.",
-    technologies: ['html', 'Ruby on rails', 'css', 'javaScript'],
-    linkLiveVersion: 'https://itswali.github.io/Awesome-Books/',
-    linkSource: 'https://github.com/Itswali/Portfolio',
+    image: 'img/card.png',
+    tittle: 'Card',
+    infoProject: ['Front End', '2022'],
+    description: 'A Card design to enter data of ATM Card Info..',
+    technologies: ['html', 'css', 'javaScript'],
+    linkLiveVersion: 'https://itswali.github.io/toDoList/dist/',
+    linkSource: 'https://github.com/Itswali/Card',
   },
 
   {
     id: '4',
+    image: 'img/global.png',
+    tittle: 'Card',
+    infoProject: ['FACEBOOK', 'Full Stack Dev', '2022'],
+    description: 'This is a UN Refugee Advert page for a an annual Summit meeting held in America . The advert has featured the topics to be discussed and Speaker from allover the globe.',
+    technologies: ['html', 'Ruby on rails', 'css', 'javaScript'],
+    linkLiveVersion: 'https://itswali.github.io/Cpastone-Project/',
+    linkSource: 'https://github.com/Itswali/Cpastone-Project/',
+  },
+
+  {
+    id: '5',
+    image: 'img/awesomebooks.png',
+    tittle: 'Awesome Books',
+    infoProject: ['Books', 'Full Stack Dev', '2022'],
+    description: "This is a web page for User to add and save their best book collection. with author name",
+    technologies: ['html', 'css', 'javaScript'],
+    linkLiveVersion: 'https://itswali.github.io/Awesome-Books/',
+    linkSource: 'https://github.com/Itswali/Awesome-Books/',
+  },
+
+  {
+    id: '6',
     image: 'img/desktop4.png',
     tittle: 'Capstone Project',
     infoProject: ['Uber', 'Lead Developer', '2018'],
@@ -168,7 +189,7 @@ const createModal = () => {
     modalNav.appendChild(tittleModal);
 
     const cancelModal = document.createElement('a');
-    cancelModal.setAttribute('href', 'https://walii.me/');
+    cancelModal.setAttribute('href', '#');
     cancelModal.classList.add('close');
     modalNav.appendChild(cancelModal);
 
