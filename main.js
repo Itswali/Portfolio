@@ -29,8 +29,8 @@ const projectsCard = [
     infoProject: ['CANOPY', 'Back End Dev', '2022'],
     description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     technologies: ['html', 'css', 'javaScript'],
-    linkLiveVersion: 'https://itswali.github.io/capstoneProject2/',
-    linkSource: 'https://github.com/Itswali/capstoneProject2/',
+    linkLiveVersion: 'https://itswali.github.io/MealsDB/',
+    linkSource: 'https://github.com/Itswali/MealsDB/',
   },
   {
     id: '2',
@@ -84,7 +84,7 @@ const projectsCard = [
     description: 'A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.',
     technologies: ['html', 'Ruby on rails', 'css', 'javaScript'],
     linkLiveVersion: 'https://itswali.github.io/Cpastone-Project/',
-    linkSource: 'https://github.com/Itswali/Portfolio',
+    linkSource: 'https://github.com/Itswali/Cpastone-Project',
   },
 ];
 
