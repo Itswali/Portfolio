@@ -60,7 +60,7 @@ const projectsCard = [
     tittle: 'Global-Summit',
     infoProject: ['FACEBOOK', 'Full Stack Dev', '2022'],
     description: 'This is a UN Refugee Advert page for a an annual Summit meeting held in America . The advert has featured the topics to be discussed and Speaker from allover the globe.',
-    technologies: ['html', 'Ruby on rails', 'css', 'javaScript'],
+    technologies: ['html', 'css', 'javaScript'],
     linkLiveVersion: 'https://itswali.github.io/Cpastone-Project/',
     linkSource: 'https://github.com/Itswali/Cpastone-Project/',
   },
