@@ -27,7 +27,7 @@ const projectsCard = [
     image: 'img/mealsDB.png',
     tittle: 'MealsDb',  
     infoProject: ['CANOPY', 'Back End Dev', '2022'],
-    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    description: 'This is a single page dynamic web app that show meals Description , Recipes and You can find your favorite meal by searching it.',
     technologies: ['html', 'css', 'javaScript'],
     linkLiveVersion: 'https://itswali.github.io/MealsDB/',
     linkSource: 'https://github.com/Itswali/MealsDB/',
@@ -74,17 +74,6 @@ const projectsCard = [
     technologies: ['html', 'css', 'javaScript'],
     linkLiveVersion: 'https://itswali.github.io/Awesome-Books/',
     linkSource: 'https://github.com/Itswali/Awesome-Books/',
-  },
-
-  {
-    id: '6',
-    image: 'img/desktop4.png',
-    tittle: 'Capstone Project',
-    infoProject: ['Uber', 'Lead Developer', '2018'],
-    description: 'A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.',
-    technologies: ['html', 'Ruby on rails', 'css', 'javaScript'],
-    linkLiveVersion: 'https://itswali.github.io/Cpastone-Project/',
-    linkSource: 'https://github.com/Itswali/Cpastone-Project',
   },
 ];
 
