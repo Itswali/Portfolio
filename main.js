@@ -292,8 +292,6 @@ modalsSection.addEventListener('click', (e) => {
   }
 });
 
-// const userName = document.querySelector('#name');
-// const userMsg = document.querySelector('#Message');
 const userEmail = document.querySelector('#email');
 const errorMsg = document.querySelector('.msg');
 const emailRegex = /^[a-z0-9]+@[a-z0-9-]+\.[a-z0-9-.]+$/;
