@@ -26,8 +26,8 @@ const projectsCard = [
     id: '1',
     image: 'img/mealsDB.png',
     tittle: 'MealsDb',  
-    infoProject: ['CANOPY', 'Back End Dev', '2022'],
-    description: 'This is a single page dynamic web app that show meals Description , Recipes and You can find your favorite meal by searching it.',
+    infoProject: ['CANOPY', 'Full Stack Dev', '2022'],
+    description: 'This is a single page dynamic web app that show meals Description , Recipes and You can find your favorite meal by searching it , Its using API to load all the data and images.',
     technologies: ['html', 'css', 'javaScript'],
     linkLiveVersion: 'https://itswali.github.io/MealsDB/',
     linkSource: 'https://github.com/Itswali/MealsDB/',
@@ -45,28 +45,17 @@ const projectsCard = [
 
   {
     id: '3',
-    image: 'img/Card.png',
-    tittle: 'Card',
-    infoProject: ['Front End', '2022'],
-    description: 'A Card design to enter data of ATM Card Info..',
+    image: 'img/global.png',
+    tittle: 'Global-Summit',
+    infoProject: ['Global Summit', 'Full Stack Dev', '2022'],
+    description: 'This is a UN Refugee Advert page for a an annual Summit meeting held in America . The advert has featured the topics to be discussed and Speaker from allover the globe.',
     technologies: ['html', 'css', 'javaScript'],
-    linkLiveVersion: 'https://itswali.github.io/Card',
-    linkSource: 'https://github.com/Itswali/Card',
+    linkLiveVersion: 'https://itswali.github.io/Global-Summit/',
+    linkSource: 'https://github.com/Itswali/Global-Summit',
   },
 
   {
     id: '4',
-    image: 'img/global.png',
-    tittle: 'Global-Summit',
-    infoProject: ['FACEBOOK', 'Full Stack Dev', '2022'],
-    description: 'This is a UN Refugee Advert page for a an annual Summit meeting held in America . The advert has featured the topics to be discussed and Speaker from allover the globe.',
-    technologies: ['html', 'css', 'javaScript'],
-    linkLiveVersion: 'https://itswali.github.io/Cpastone-Project/',
-    linkSource: 'https://github.com/Itswali/Cpastone-Project/',
-  },
-
-  {
-    id: '5',
     image: 'img/awesomebooks.png',
     tittle: 'Awesome Books',
     infoProject: ['Books', 'Full Stack Dev', '2022'],
@@ -221,7 +210,7 @@ const createModal = () => {
 
     const textmodal = document.createElement('p');
     textmodal.classList.add('primary-text', 'modal-text', 'modal12');
-    textmodal.innerText = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry.";
+    textmodal.innerText = modal.description;
     modalInfo.appendChild(textmodal);
 
     const technologiesModal = document.createElement('div');
