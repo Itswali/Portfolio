@@ -25,7 +25,7 @@ const projectsCard = [
   {
     id: '1',
     image: 'img/mealsDB.png',
-    tittle: 'MealsDb',  
+    tittle: 'MealsDb',
     infoProject: ['CANOPY', 'Full Stack Dev', '2022'],
     description: 'This is a single page dynamic web app that show meals Description , Recipes and You can find your favorite meal by searching it , Its using API to load all the data and images.',
     technologies: ['html', 'css', 'javaScript'],
@@ -59,7 +59,7 @@ const projectsCard = [
     image: 'img/awesomebooks.png',
     tittle: 'Awesome Books',
     infoProject: ['Books', 'Full Stack Dev', '2022'],
-    description: "This is a web page for User to add and save their best book collection. with author name",
+    description: 'This is a web page for User to add and save their best book collection. with author name',
     technologies: ['html', 'css', 'javaScript'],
     linkLiveVersion: 'https://itswali.github.io/Awesome-Books/',
     linkSource: 'https://github.com/Itswali/Awesome-Books/',
