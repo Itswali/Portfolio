@@ -24,13 +24,13 @@ for (let i = 0; i < links.length; i += 1) {
 const projectsCard = [
   {
     id: '1',
-    image: 'img/mealsDB.png',
-    tittle: 'MealsDb',
-    infoProject: ['CANOPY', 'Full Stack Dev', '2022'],
-    description: 'This is a single page dynamic web app that show meals Description , Recipes and You can find your favorite meal by searching it , Its using API to load all the data and images.',
+    image: 'img/global.png',
+    tittle: 'Global-Summit',
+    infoProject: ['Global Summit', 'Full Stack Dev', '2022'],
+    description: 'This is a UN Refugee Advert page for a an annual Summit meeting held in America . The advert has featured the topics to be discussed and Speaker from allover the globe.',
     technologies: ['html', 'css', 'javaScript'],
-    linkLiveVersion: 'https://itswali.github.io/MealsDB/',
-    linkSource: 'https://github.com/Itswali/MealsDB/',
+    linkLiveVersion: 'https://itswali.github.io/Global-Summit/',
+    linkSource: 'https://github.com/Itswali/Global-Summit',
   },
   {
     id: '2',
@@ -42,27 +42,45 @@ const projectsCard = [
     linkLiveVersion: 'https://itswali.github.io/toDoList/dist/',
     linkSource: 'https://github.com/Itswali/toDoList',
   },
-
   {
     id: '3',
-    image: 'img/global.png',
-    tittle: 'Global-Summit',
-    infoProject: ['Global Summit', 'Full Stack Dev', '2022'],
-    description: 'This is a UN Refugee Advert page for a an annual Summit meeting held in America . The advert has featured the topics to be discussed and Speaker from allover the globe.',
+    image: 'img/mealsDB.png',
+    tittle: 'MealsDb',
+    infoProject: ['CANOPY', 'Full Stack Dev', '2022'],
+    description: 'This is a single page dynamic web app that show meals Description , Recipes and You can find your favorite meal by searching it , Its using API to load all the data and images.',
     technologies: ['html', 'css', 'javaScript'],
-    linkLiveVersion: 'https://itswali.github.io/Global-Summit/',
-    linkSource: 'https://github.com/Itswali/Global-Summit',
+    linkLiveVersion: 'https://itswali.github.io/MealsDB/',
+    linkSource: 'https://github.com/Itswali/MealsDB/',
   },
-
   {
     id: '4',
-    image: 'img/awesomebooks.png',
-    tittle: 'Awesome Books',
+    image: 'img/BookStore.png',
+    tittle: 'Book Store',
     infoProject: ['Books', 'Full Stack Dev', '2022'],
-    description: 'This is a web page for User to add and save their best book collection. with author name',
-    technologies: ['html', 'css', 'javaScript'],
-    linkLiveVersion: 'https://itswali.github.io/Awesome-Books/',
-    linkSource: 'https://github.com/Itswali/Awesome-Books/',
+    description: 'This is a Bookstore web app created with React & Redux. A user can add a book with his author and category also can track its progress.',
+    technologies: ['html', 'scss', 'React', 'Redux'],
+    linkLiveVersion: 'https://book-store-qe1o.onrender.com/',
+    linkSource: 'https://github.com/Itswali/BookStore/',
+  },
+  {
+    id: '5',
+    image: 'img/SpaceStore.png',
+    tittle: 'Space Store',
+    infoProject: ['CANOPY', 'Front End Development', '2022'],
+    description: 'The Space Travelers Hub is a React App. It consists of Rockets, Missions, and the My Profile section. It uses Redux as a state management tool. You can join missions and reserve rockets and see them in Profile Section.',
+    technologies: ['html', 'Scss', 'React', 'Redex'],
+    linkLiveVersion: 'https://gpt-3-z9vl.onrender.com/',
+    linkSource: 'https://github.com/Itswali/Space-Traveler/',
+  },
+  {
+    id: '6',
+    image: 'img/GPT3.png',
+    tittle: 'GPT3',
+    infoProject: ['CANOPY', 'Front End Development', '2022'],
+    description: 'This is a single page dynamic web app that display the deatils of what GPT3 is and its information with appealing design.',
+    technologies: ['html', 'Scss', 'React'],
+    linkLiveVersion: 'https://gpt-3-z9vl.onrender.com/',
+    linkSource: 'https://github.com/Itswali/GPT3/',
   },
 ];
 
@@ -247,6 +265,7 @@ const createModal = () => {
     const btnSee = document.createElement('a');
     btnSee.classList.add('button', 'btn-link');
     btnSee.setAttribute('href', modal.linkLiveVersion);
+    btnSee.setAttribute('target', 'blank');
     btnSee.innerText = 'See live';
     btnsModal.appendChild(btnSee);
 
@@ -259,6 +278,7 @@ const createModal = () => {
     const btnSource = document.createElement('a');
     btnSource.classList.add('button', 'btn-link');
     btnSource.setAttribute('href', modal.linkSource);
+    btnSee.setAttribute('target', 'blank');
     btnSource.innerText = 'See Source';
     btnsModal.appendChild(btnSource);
 
